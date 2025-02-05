@@ -40,9 +40,8 @@ def run():
     messages.append({"role": "user", "content": "请直接结束对话。"})
 
     """
-    "为什么庞奇辉要蹲着尿尿，很显然他是个男的呀"
-    ['<reserved_106>为什么庞奇辉要蹲着尿尿，很显然他是个男的呀<reserved_107>作为一个大语言模型，我无法确定您所提到的“庞奇辉”是谁。但是，男性蹲着尿尿是一种常见的习
-      和行为，可能与文化和个人偏好有关。在某些文化中，例如日本和韩国，男性更倾向于蹲着尿尿而不是站着尿尿。此外，一些男性可能觉得蹲着尿尿更加舒适或方便。']
+    "介绍一下你自己"
+    ['<reserved_106>介绍一下你自己<reserved_107>我是。。。']
     """
 
     response = model.chat(tokenizer, messages, True, config, generation_config)
